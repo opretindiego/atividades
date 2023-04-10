@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+            <fieldset> 
+                <legend>Cadastro</legend>
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome"  required>
+        <br><br>
+        <p>Onde você mora ?</p>
+        <input type="radio">
+        <label for="">Cidade</label> <br>
+        <input type="radio">
+        <label for="">Interior</label> <br><br>
+        <input type="submit" value="encaminhar">
+    </fieldset>
+
+        <p>Qual meio de transporte você usa ?</p>
+        <input type="checkbox">
+        <label for="">Bicicleta</label> <br><br>
+        <input type="checkbox">
+        <label for="">Onibus</label> <br> <br>
+        <input type="checkbox">
+        <label for="">Carro</label> <br> <br>
+        <input type="checkbox"> 
+        <label for="">Metro</label> <br><br>
+
+        <label for="time">Selecione seu time</label> 
+
+        <select name="" id="">
+            <option value="1">Palmeiras</option>
+            <option value="2">Santos</option>
+            <option value="3">São Paulo</option>
+            <option value="4">Agua Santa</option>
+        </select> <br> <br>
+        <br>
+        <label>Escolha sua Cidade</label> 
+
+        <input autocomplete="on" list="cidade">
+                <datalist id="cidade">
+                    <option value="São Paulo"></option>
+                    <option value="São sebastiâo"></option>
+                    <option value="Sao bernardo"></option>
+                    <option value="Guarulhos"></option>
+                </datalist> <br> <br>
+
+                0 <input type="range">
+                100 <br> <br>
+
+                <textarea  cols="30" rows="10"></textarea>
+
+         <input type="submit" value="encaminhar">
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.TituloPrincipal{
+background-color: darkgreen;
+color: white;
+text-align: center;
+}
+
+    .Aprenda{
+    text-align: right;
+ }      
+ .teste{
+    text-align: justify;
+ }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    text-decoration: underline ;
+}
+ 
